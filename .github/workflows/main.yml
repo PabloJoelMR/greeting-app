@@ -35,4 +35,4 @@ jobs:
       - name: Build image
         run: docker build -t ${{ secrets.DOCKER_USERNAME }}/cicd-demo .
       - name: Push image
-        run: docker push ${{ secrets.DOCKER_USERNAME }}/cicd-demo      
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/cicd-demo     
